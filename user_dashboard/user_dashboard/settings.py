@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-*n7rmwuu4)mbf#q9mr*=1twr7(5_@=h9i)5db-qiv%=zze)die
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev']
+ALLOWED_HOSTS = [
+    '5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev',
+    '8hxl3m-8000.csb.app',
+]
 
 
 # Application definition
@@ -103,7 +106,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev'
+    'https://5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev',
+    'https://8hxl3m-8000.csb.app',
 ]
 
 
@@ -132,5 +136,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.User'
-
-
