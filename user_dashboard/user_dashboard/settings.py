@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev',
     '8hxl3m-8000.csb.app',
+    'gdq2h9-8000.csb.app',
 ]
 
 
@@ -108,6 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CSRF_TRUSTED_ORIGINS = [
     'https://5cfa49c1-6025-4b10-8d03-87519efc9213-00-1obkptca0sz8r.pike.replit.dev',
     'https://8hxl3m-8000.csb.app',
+    'https://gdq2h9-8000.csb.app',
 ]
 
 
